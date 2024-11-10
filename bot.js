@@ -1,11 +1,21 @@
 require('dotenv').config({ path: './token.env' });
-const { Client, GatewayIntentBits } = require('discord.js');
+const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
-
-client.once('ready', () => {
-    console.log('Bot jest online!'); // Pl: Chcesz to zmień sobie napis na inny
+const client = new Client({ 
+    intents: [GatewayIntentBits.Guilds],
+    presence: {
+        status: 'dnd', // online(zielony), idle(zolty), dnd(czerwony), invisible(szary)
+        activities: [
+            { 
+                name: 'vornisoe - DiscordBOT', 
+                type: ActivityType.Playing // PLAYING(Aktywnosc gra), STREAMING(Streamuje), LISTENING (Slucha), WATCHING(Oglada)
+            }
+        ]
+    }
 });
 
-//PL: Nie wpisujemy tutaj naszego tokenu, token jest przechowywany w pliku token.env
+client.once('ready', () => {
+    console.log('Bot jest online!');
+});
+
 client.login(process.env.DISCORD_TOKEN);
