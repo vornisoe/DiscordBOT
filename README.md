@@ -1,2 +1,2 @@
 # DiscordBOT
-To będzie do zmiany!
+Stworzyłem i wrzuciłem te pliki bota, aby pomóc osobom, które nie potrafią same stworzyć bota lub nie mają na to czasu. Projekt ma na celu ułatwienie rozpoczęcia pracy z botem bez potrzeby budowania wszystkiego od zera. Można dowolnie modyfikować kod, dostosować go do swoich potrzeb i wykorzystywać w swoich projektach. Jeśli macie jakieś pytania lub potrzebujecie pomocy, śmiało się ze mną skontaktujcie!
