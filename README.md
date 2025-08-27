@@ -4,7 +4,7 @@ I created and uploaded these bot files to help people who either can’t create 
 ## 🚀 How to run the bot?
 - To make the bot work properly, replace "token" with your own bot token.
 - If you are running the bot on a local server, open the command prompt, go to the bot’s folder using the command cd <path-to-folder>, and start the bot with the command node bot.js.
-## 📌 Ważne/Info!
+## 📌 Important/Info!
 - The token is stored in the file token.env – you won’t find it in bot.js.
 - You can get the token at: https://discord.com/developers/applications
 - In every file, the sections marked with # indicate areas that can be modified according to the user’s needs.
