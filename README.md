@@ -1,15 +1,35 @@
-# DiscordBOT - vornisoe
-I created and uploaded these bot files to help people who either can’t create a bot themselves or don’t have time for it. The project aims to make it easier to get started with a bot without having to build everything from scratch. You can freely modify the code, adjust it to your needs, and use it in your own projects. If you have any questions or need help, feel free to contact me.
+# 🤖 DiscordBOT - vornisoe
 
-## 🚀 How to run the bot?
-- To make the bot work properly, replace "token" with your own bot token.
-- If you are running the bot on a local server, open the command prompt, go to the bot’s folder using the command cd <path-to-folder>, and start the bot with the command node bot.js.
-## 📌 Important/Info!
-- The token is stored in the file token.env – you won’t find it in bot.js.
-- You can get the token at: https://discord.com/developers/applications
-- In every file, the sections marked with # indicate areas that can be modified according to the user’s needs.
+A simple and customizable Discord bot starter template.  
+Perfect for those who want to get a bot running quickly without starting from scratch.  
+You can freely modify the code, extend features, and use it in your own projects.  
 
-## What does the bot have?
-### Custom settings, changes available to the bot administrator:
-- Function to change activity name → bot.js line 10
-- Function to change activity type to: (playing, streaming, watching, listening) → bot.js line 11
+If you have any questions or need help, feel free to contact me.
+
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
+![Discord.js](https://img.shields.io/badge/Discord.js-v14-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+---
+
+## 📑 Table of Contents
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## 🚀 Installation
+Clone the repository and install dependencies:
+```bash
+# 1. Clone the repo
+git clone https://github.com/vornisoe/DiscordBOT.git
+
+# 2. Go into the project folder
+cd DiscordBOT
+
+# 3. Install dependencies
+npm install
