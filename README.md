@@ -1,35 +1,38 @@
-# 🤖 DiscordBOT - vornisoe
+# 🤖 DiscordBOT – vornisoe
 
-A simple and customizable Discord bot starter template.  
-Perfect for those who want to get a bot running quickly without starting from scratch.  
-You can freely modify the code, extend features, and use it in your own projects.  
+A minimal, ready-to-extend Discord bot starter built with **discord.js v14**.  
+It ships with a configurable **presence** (status + activity) and loads secrets from **.env**.  
+Fork it, tweak it, and build your own features on top.
 
-If you have any questions or need help, feel free to contact me.
-
-![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
-![Discord.js](https://img.shields.io/badge/Discord.js-v14-blueviolet)
-![License](https://img.shields.io/badge/License-MIT-blue)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933)
+![discord.js](https://img.shields.io/badge/discord.js-v14-5865F2)
+![License](https://img.shields.io/badge/License-ISC-blue)
 
 ---
 
 ## 📑 Table of Contents
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Features](#features)
+- [Project Structure](#project-structure)
+- [Troubleshooting](#troubleshooting)
+- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 
 ---
 
+## ✅ Requirements
+- **Node.js 18+**
+- A Discord **Bot Token** (from the [Developer Portal](https://discord.com/developers/applications))
+
+---
+
 ## 🚀 Installation
-Clone the repository and install dependencies:
+Clone the repo and install dependencies:
 ```bash
-# 1. Clone the repo
 git clone https://github.com/vornisoe/DiscordBOT.git
-
-# 2. Go into the project folder
 cd DiscordBOT
-
-# 3. Install dependencies
 npm install
